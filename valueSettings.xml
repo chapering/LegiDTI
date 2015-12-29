@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<size flag="1">
+		<vsize>0.03</vsize>
+		<vscale>20.0</vscale>
+	</size>
+
+	<color flag="0">
+		<space>LAB</space>
+	</color>
+
+	<value flag="0">
+		<start>0.1</start>
+		<end>1.0</end>
+	</value>
+
+	<transparency flag="0">
+		<start>0.1</start>
+		<end>1.0</end>
+	</transparency>
+
+	<halo flag="1">
+		<width>1</width>
+	</halo>
+</settings>
