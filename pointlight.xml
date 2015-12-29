@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Material name="pointlight">
+  <!--
+  <Property name="Property1">
+    <Member name="DiffuseColor" number_of_elements="3" type="Double" value="1.0 0.5 0.5" />
+  </Property>
+  -->
+  <Shader scope="Vertex" name="GLSLpointlight" location="./pointlight.vert" language="GLSL" entry="main">
+    <ApplicationUniform name="rate" value="rate"> </ApplicationUniform>
+  </Shader>
+  <Shader scope="Fragment" name="GLSLpointlight" location="./pointlight.frag" language="GLSL" entry="main">
+  </Shader>
+</Material>
