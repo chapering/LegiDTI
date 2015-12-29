@@ -1,0 +1,14 @@
+
+1. How to install the study package?
+sh ./setupstudy.sh [task1|task2|task_n]
+
+2. How to start the study ?
+sh ./runstudy.sh $participantId
+
+3. How to get the raw study result?
+(1) create a directory for each participant, for example, p1, p2, pn
+(2) put the study log files (studylog_p$(participantId)_legi, say) associated with a participant
+	all into the corresponding directory created in (1)
+(3) Run the python program followed by the directories to get the results:
+
+python ./listResultForSAS_encoding.py p1 p2 ... pn

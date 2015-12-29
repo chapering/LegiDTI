@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<size flag="0">
+		<vsize>0.03</vsize>
+		<vscale>20.0</vscale>
+	</size>
+
+	<color flag="1">
+		<!--
+		<space>LAB</space>
+		-->
+		<space>RGB</space>
+	</color>
+
+	<value flag="0">
+		<start>0.0</start>
+		<end>1.0</end>
+	</value>
+
+	<transparency flag="0">
+		<start>0.1</start>
+		<end>1.0</end>
+	</transparency>
+
+	<halo flag="0">
+		<width>2</width>
+	</halo>
+
+	<shape>
+		<!--
+		<type>SUPERELLIPSOID</type>
+		-->
+
+		<type>CONE</type>
+
+		<!--
+		<type>TUBE</type>
+		-->
+	</shape>
+
+	<orientation>
+		<!--
+		<otype>NONE</otype>
+		-->
+
+		<otype>COLOR</otype>
+
+		<!-- only CONE makes sense as a shape to encode orientation-->
+		<!--
+		<otype>SHAPE</otype> 
+		-->
+
+		<!--
+		<otype>COLOR</otype>
+		-->
+	</orientation>
+
+</settings>
